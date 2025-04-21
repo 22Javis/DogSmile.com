@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DogSmile |Gomitas Felices</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 80px 50px;
+      min-height: 100vh;
+    }
+
+    #inicio {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #ffffff;
+    }
+
+    #inicio img {
+      max-width: 300px;
+      animation: flotar 3s infinite ease-in-out;
+    }
+
+    @keyframes flotar {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 20px;
+    }
+
+    section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 18px;
+      max-width: 800px;
+    }
+
+    footer {
+      background-color: #3ab2e6;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>  
+
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; background-color: #fff;">
+  
+        <!-- LOGO + NOMBRE -->
+        <div style="display: flex; align-items: center;">
+          <img src="imagenes/DOGsmile.png" alt="Logo DogSmile" style="height: 40px; margin-right: 10px;">
+          <span style="font-size: 24px; font-weight: bold; color: #7b3f00;">DogSmile</span>
+        </div>
+        
+        <!-- MENÚ CON DIVISIONES VERTICALES -->
+        <nav style="display: flex; align-items: center; gap: 20px;">
+          <a href="#inicio" style="text-decoration: none; color: #000; font-weight: bold;">Inicio</a>
+          <span style="border-left: 2px solid #ccc; height: 20px;"></span>
+          <a href="#nosotros" style="text-decoration: none; color: #000; font-weight: bold;">Nosotros</a>
+          <span style="border-left: 2px solid #ccc; height: 20px;"></span>
+          <a href="#productos" style="text-decoration: none; color: #000; font-weight: bold;">Productos</a>
+          <span style="border-left: 2px solid #ccc; height: 20px;"></span>
+          <a href="#contacto" style="text-decoration: none; color: #000; font-weight: bold;">Contacto</a>
+        </nav>
+      
+      </header>
+      
+
+      
+      
+
+      <style>
+        @keyframes flotar {
+          0% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
+          100% { transform: translateY(0); }
+        }
+        
+        .flotante {
+          animation: flotar 3s ease-in-out infinite;
+        }
+        
+        .sombra {
+          text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        </style>
+        
+        <section id="inicio" style="display: flex; align-items: center; justify-content: space-around; padding: 80px 40px; flex-wrap: wrap;">
+          
+          <div style="max-width: 500px;">
+            <h1 class="flotante sombra" style="font-size: 72px; margin: 0; line-height: 1;">CREAMOS</h1>
+            <h1 class="flotante sombra" style="font-size: 72px; margin: 0; line-height: 1;">FELICIDAD</h1>
+            <h2 class="sombra" style="font-size: 32px; font-weight: 400; margin-top: 25px;">En forma de gomitas</h2>
+            <p class="sombra" style="font-size: 22px; margin-top: 25px;">Deliciosas, adorables y 100% saludables.</p>
+          </div>
+        
+          <img src="imagenes/Productos.png" alt="Gomita DogSmile"
+               style="max-width: 500px; width: 100%; margin-top: 20px;">
+          
+        </section>
+        
+  
+  
+
+
+  <section id="nosotros" style="background-color: #ffffff; padding: 60px 40px; text-align: center; color: #333;">
+    <h2 style="font-size: 36px; margin-bottom: 20px;">¿Quiénes Somos?</h2>
+  
+    <p style="max-width: 700px; margin: 0 auto 40px auto; font-size: 18px; line-height: 1.6;">
+      DogSmile nació con la idea de convertir cada sonrisa en una experiencia dulce. Creamos gomitas con forma de perritos que no solo son deliciosas, sino que también te alegran el día. Nuestra misión es compartir alegría, sabor y ternura en cada empaque.
+    </p>
+  
+    <img src="imagenes/JaviyOso.png" alt="Gomita DogSmile" style="max-width: 400px; width: 100%; border-radius: 20px; box-shadow: 0 4px 20px rgba(219, 147, 12, 0.1);">
+  </section>
+  
+  </section>
+
+
+  <section id="productos" style="background-color: #ffffff; padding: 60px 40px; text-align: center;">
+    <h2 style="font-size: 36px; margin-bottom: 20px;">Nuestros Productos</h2>
+  
+    <p style="max-width: 700px; margin: 0 auto 40px auto; font-size: 18px; line-height: 1.6;">
+        ¡Conoce nuestras gomitas hechas con colágeno natural de pollo! ¡Ese toque especial que hace felices a los peluditos! 🐶✨
+    </p>
+  
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+      <img src="imagenes/Productos.png" alt="Gomitas"
+           style="width: 500px; animation: flotar 4s infinite ease-in-out;">
+    </div>
+  </section>
+  
+  <style>
+  @keyframes flotar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-40px); }
+  }
+  </style>
+  
+  
+  <style>
+  @keyframes flotar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-40px); }
+  }
+  </style>
+  
+  
+  
+
+  <section id="contacto" style="padding: 80px 40px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  
+    <div style="max-width: 600px;">
+      <h2 style="font-size: 48px; margin-bottom: 20px;">¿Quieres contactarme?</h2>
+      <p style="font-size: 22px; margin-bottom: 30px;">
+        ¡Hola! Soy <strong>Javier Abril</strong>, estudiante de la <strong>Universidad Politécnica Salesiana</strong>.
+        Si tienes alguna duda, idea o simplemente quieres conversar, estaré encantado de responderte.
+      </p>
+    
+      <p style="font-size: 20px; line-height: 2;">
+        📧 <strong>Email:</strong> <a href="mailto:mabrilb2@est.ups.edu.ec">mabrilb2@est.ups.edu.ec</a><br>
+        📱 <strong>Teléfono:</strong> <a href="tel:+593998017911">+593 998017911
+      </p>
+    </div>
+  
+  </section>
+  
+  <footer style="text-align: center; padding: 20px; background-color: #f2f2f2; font-size: 16px; color: #555;">
+    © 2025 Javier Abril. Todos los derechos reservados.
+  </footer>
+  
+</body>
+</html>
